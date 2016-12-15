@@ -17,7 +17,7 @@ A = emitdt(spots);
 B = (RB_matrix(:, spots));
 
 %solve and find the coefficients which make emitdt from RB_matrix
-coefficients = A\B;
+coefficients = A*inv(B);
 
 %% We then want to build emitdt using the coefficients found
 
