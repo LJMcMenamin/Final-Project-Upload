@@ -14,13 +14,13 @@ for k = 1:365
 
 end
 
-stopping tolerance
+%stopping tolerance
 tol = 1e-12;
 
-waveform length
+%waveform length
 wl = 10;
 
-emitdt size 
+%emitdt size 
 size = 1;
 
 %skeleton emitdt to fill in the loop
