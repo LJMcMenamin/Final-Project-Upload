@@ -11,10 +11,10 @@
 tol = 1e-12;
 
 %no. of vectors in data set 
-size = 365;
+size = 1000;
 
 %waveform length
-wl = 10;
+wl = 1000;
 
 %skeleton emitdt to fill in the loop
 emitdt = zeros(size, wl);
